@@ -21,7 +21,7 @@
 #define MIN_TIME_THRESHOLD 2   /** Minimum time threshold in seconds*/
 #define MAX_TIME_THRESHOLD 20  /** Maximum time threshold in seconds*/
 #define PERIOD 100             /** Watchdog period in milliseconds */
-#define TRIGGERING_WATCHDOG 5000    /** triggern watchdog period in Millisecond */
+#define TRIGGERING_WATCHDOG 3000    /** triggern watchdog period in Millisecond */
 /**
  * // Startup options for errors //
  * To simulate errors one by one, ensure that the option 'SIMULATE_ALL_ERROR' is set to 'false.'
@@ -31,7 +31,7 @@
  * while leaving the other errors to 'false.
 */
 #define START_TIMEOUT_ERROR  true
-#define START_TEMPERATURE_ERROR true
+#define START_TEMPERATURE_ERROR false
 #define START_DEADLOCK   false
 #define SIMULATE_ALL_ERROR true
 /**
@@ -42,12 +42,12 @@
 /**
  * loop duration for timeout
 */
-#define LOOP_DURATION 5
+#define LOOP_DURATION 1
 /**
  * Set a delay for TimeoutFunction to simulate  a timeout in the function.
  * If you do not want a timeout error to be triggered, please set the delay to 1.
 */
-#define DELAY 4
+#define DELAY 1
 /**
  * Generate a random Temperature between 80 and 100
  * rand() % 21+ TEMPERATURE;

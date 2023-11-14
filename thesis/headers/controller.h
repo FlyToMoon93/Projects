@@ -21,6 +21,8 @@ void createDeadlock();
 
 void sendWatchdogMessage(int messageQueueID, Error error, pid_t controllerPID);
 
+void WatchdogTrigger(int messageQueueID, pid_t controllerPID);
+
 void printErrorChoices();
 
 

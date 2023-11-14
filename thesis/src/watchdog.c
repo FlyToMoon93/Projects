@@ -28,7 +28,7 @@ void watchdogProcess(int messageQueueID, pid_t watchdogPID, pid_t controllerPID)
         // Calculate the time elapsed since the start
         long long elapsedTime = currentTime - startTime;
         if (elapsedTime > MAX_TIME_THRESHOLD * 1000) {
-            printf(PREFIX_WATCHDOG BLUE_COLOR"Expected response time from controller: %d Millisekunden, current time: %lld Millisekunden\n"RESET_COLOR,
+            printf(PREFIX_WATCHDOG BLUE_COLOR"Expected response time from controller: %d milliseconds, current time: %lld milliseconds\n"RESET_COLOR,
                    MAX_TIME_THRESHOLD * 1000, elapsedTime);
             startTime = currentTime; // Reset the start time
             restoreSafeState(messageQueueID, controllerPID);
@@ -41,7 +41,7 @@ void watchdogProcess(int messageQueueID, pid_t watchdogPID, pid_t controllerPID)
                 message.error.errorCode = TRIGGERED;
             }
             if (elapsedTime < MIN_TIME_THRESHOLD) {
-                printf(PREFIX_WATCHDOG "Early response from controller: %lld Millisekunden,Expected response time %d Millisekunden.\n",
+                printf(PREFIX_WATCHDOG "Early response from controller: %lld milliseconds,Expected response time %d milliseconds.\n",
                        elapsedTime, MIN_TIME_THRESHOLD * 1000);
                 startTime = currentTime; // Reset the start time
                 restoreSafeState(messageQueueID, controllerPID);

@@ -95,10 +95,7 @@ void controllerProcess(int messageQueueID, pid_t controllerPID) {
                     break;
 #endif
             default:
-                printf(PREFIX_CONTROLLER"No errors. the watchdog must be triggered.\n");
-                usleep(TRIGGERING_WATCHDOG * 1000);
-                Error error = {true, TRIGGERING};
-                sendWatchdogMessage(messageQueueID, error, controllerPID);
+                WatchdogTrigger(messageQueueID, controllerPID);
                 break;
         }
         sleep(2);
@@ -125,10 +122,7 @@ void createTimeoutError(int messageQueueID, pid_t controllerPID) {
     }
     if (!errorDetected.errorDetected) {
         printf(PREFIX_CONTROLLER"No timeout detected\n");
-        printf(PREFIX_CONTROLLER"No errors. the watchdog must be triggered.\n");
-        usleep(TRIGGERING_WATCHDOG * 1000);
-        Error error = {true, TRIGGERING};
-        sendWatchdogMessage(messageQueueID, error, controllerPID);
+        WatchdogTrigger(messageQueueID, controllerPID);
         startTime = 0;
     }
     sleep(2);
@@ -147,10 +141,7 @@ void createTemperatureError(int messageQueueID, pid_t controllerPID) {
         sendWatchdogMessage(messageQueueID, error, controllerPID);
     } else {
         printf(PREFIX_CONTROLLER "No overheating detected. Everything is normal.\n");
-        printf(PREFIX_CONTROLLER"No errors. the watchdog must be triggered.\n");
-        usleep(TRIGGERING_WATCHDOG * 1000);
-        Error error = {true, TRIGGERING};
-        sendWatchdogMessage(messageQueueID, error, controllerPID);
+        WatchdogTrigger(messageQueueID, controllerPID);
     }
     sleep(2);
 }
@@ -175,6 +166,14 @@ void sendWatchdogMessage(int messageQueueID, Error error, pid_t controllerPID __
             break;
         }
     }
+}
+
+void WatchdogTrigger(int messageQueueID, pid_t controllerPID) {
+
+    printf(PREFIX_CONTROLLER"No errors. the watchdog must be triggered.\n");
+    usleep(TRIGGERING_WATCHDOG * 1000);
+    Error error = {true, TRIGGERING};
+    sendWatchdogMessage(messageQueueID, error, controllerPID);
 }
 
 void printErrorChoices() {
