@@ -125,6 +125,7 @@ public class PDFWordSearchGUI {
                             String[] lines = paragraph.split("\\n"); // Split paragraph into lines
                             for (String line : lines) {
                                 if (line.contains(searchText)) {
+
                                     tableModel.addRow(new Object[]{searchText, pageCount, line});
                                     wordCount++; // Increment counter for each occurrence of the word
                                 }
@@ -145,9 +146,9 @@ public class PDFWordSearchGUI {
             displayResult(countText, Color.RED);
 
             JTable resultTable = new JTable(tableModel);
-            resultTable.getColumnModel().getColumn(2).setPreferredWidth(600); // Set width of "Abschnitt" column
+            resultTable.getColumnModel().getColumn(2).setPreferredWidth(800); // Set width of "Abschnitt" column
             JScrollPane scrollPane = new JScrollPane(resultTable);
-            Dimension preferredSize = new Dimension(800, 400); // Set preferred size
+            Dimension preferredSize = new Dimension(1000, 600); // Set preferred size
             scrollPane.setPreferredSize(preferredSize);
             JOptionPane.showMessageDialog(frame, scrollPane);
         } catch (IOException e) {
