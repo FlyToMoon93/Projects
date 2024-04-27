@@ -1,6 +1,8 @@
 package org.example;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.text.PDFTextStripper;
 
 import javax.swing.*;
@@ -109,32 +111,32 @@ public class PDFWordSearchGUI {
             DefaultTableModel tableModel = new DefaultTableModel(new Object[]{"Wort", "Seite", "Abschnitt"}, 0);
             boolean wordFound = false;
             int wordCount = 0; // Counter for word occurrences
-            for (PDDocument document : documents) {
-                PDFTextStripper pdfStripper = new PDFTextStripper();
-                pdfStripper.setSortByPosition(true);
-                String text = pdfStripper.getText(document);
-                String[] paragraphs = text.split("\n\n"); // Split by double newline to identify paragraphs
-                int pageCount = 1; // Variable to count actual pages in the document
-                for (String paragraph : paragraphs) {
-                    if (!paragraph.trim().isEmpty()) { // Check if paragraph is not empty
-                        if (paragraph.contains(searchText)) {
-                            if (!wordFound) {
-                                wordFound = true;
 
-                            }
-                            String[] lines = paragraph.split("\\n"); // Split paragraph into lines
-                            for (String line : lines) {
-                                if (line.contains(searchText)) {
+            for (int docIndex = 0; docIndex < documents.length; docIndex++) {
+                PDDocument document = documents[docIndex];
+                int currentPage = 1; // Variable to track the current page number
 
-                                    tableModel.addRow(new Object[]{searchText, pageCount, line});
-                                    wordCount++; // Increment counter for each occurrence of the word
-                                }
-                            }
-                        }
+                for (int i = 1; i <= document.getNumberOfPages(); i++) {
+                    PDFTextStripper pdfStripper = new PDFTextStripper();
+                    pdfStripper.setSortByPosition(true);
+                    pdfStripper.setStartPage(i);
+                    pdfStripper.setEndPage(i);
+
+                    String text = pdfStripper.getText(document);
+
+                    if (text.contains(searchText)) {
+                        wordFound = true;
+                        PDPage currentPageObj = document.getPage(i - 1); // Get the current page object
+                        PDRectangle cropBox = currentPageObj.getCropBox(); // Get the crop box (bounding box) of the page
+
+                        // Add the current page number and text to the tableModel
+                        tableModel.addRow(new Object[]{searchText, currentPage, text});
+                        wordCount++; // Increment counter for each occurrence of the word
                     }
+                    currentPage++; // Increment the current page number
                 }
-
             }
+
             if (!wordFound) {
                 String countText = "Das Wort \"" + searchText + "\" wurde nicht gefunden.";
                 displayResult(countText, Color.RED);
@@ -155,6 +157,8 @@ public class PDFWordSearchGUI {
             resultArea.setText("Fehler beim Lesen der PDF-Dateien: " + e.getMessage());
         }
     }
+
+
 
 
     private void displayResult(String text, Color color) {

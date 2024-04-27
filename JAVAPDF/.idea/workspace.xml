@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb27ea7c-dc56-4207-80ac-753460ccf1e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PDFWordSearchGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFWordSearchGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/PDFWordSearchGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PDFWordSearchGUI.class" afterDir="false" />
@@ -29,6 +29,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.PDFWordSearchGUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -44,7 +45,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Java/pdffortesting/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,8 +86,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -104,7 +105,13 @@
       <workItem from="1713602354539" duration="6986000" />
       <workItem from="1713637999974" duration="324000" />
       <workItem from="1713638781534" duration="1564000" />
-      <workItem from="1713699841201" duration="1375000" />
+      <workItem from="1713699841201" duration="2360000" />
+      <workItem from="1713702864747" duration="153000" />
+      <workItem from="1713856725083" duration="737000" />
+      <workItem from="1713857761184" duration="2573000" />
+      <workItem from="1713862751606" duration="592000" />
+      <workItem from="1713866140310" duration="196000" />
+      <workItem from="1713870773464" duration="804000" />
     </task>
     <servers />
   </component>
