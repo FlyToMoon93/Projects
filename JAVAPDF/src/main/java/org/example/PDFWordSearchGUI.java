@@ -100,6 +100,8 @@ public class PDFWordSearchGUI {
         }
     }
 
+    // Änderungen befinden sich in der searchWords Methode
+
     private void searchWords() {
         if (documents == null) {
             resultArea.setText("Bitte laden Sie zuerst PDF-Dateien hoch.");
@@ -118,22 +120,23 @@ public class PDFWordSearchGUI {
 
                 for (int i = 1; i <= document.getNumberOfPages(); i++) {
                     PDFTextStripper pdfStripper = new PDFTextStripper();
-                    pdfStripper.setSortByPosition(true);
+                    pdfStripper.setSortByPosition(true); // Text nach Position sortieren
                     pdfStripper.setStartPage(i);
                     pdfStripper.setEndPage(i);
 
                     String text = pdfStripper.getText(document);
+                    String[] lines = text.split("\n"); // Text in Zeilen aufteilen
 
-                    if (text.contains(searchText)) {
-                        wordFound = true;
-                        PDPage currentPageObj = document.getPage(i - 1); // Get the current page object
-                        PDRectangle cropBox = currentPageObj.getCropBox(); // Get the crop box (bounding box) of the page
-
-                        // Add the current page number and text to the tableModel
-                        tableModel.addRow(new Object[]{searchText, currentPage, text});
-                        wordCount++; // Increment counter for each occurrence of the word
+                    for (String line : lines) {
+                        if (line.contains(searchText)) {
+                            wordFound = true;
+                            // If word found, add current page number and line to tableModel
+                            tableModel.addRow(new Object[]{searchText, currentPage, line});
+                            wordCount++; // Increment counter for each occurrence of the word
+                            break; // Exit the loop for this page as we only need the first occurrence
+                        }
                     }
-                    currentPage++; // Increment the current page number
+                    currentPage++;
                 }
             }
 
@@ -157,9 +160,6 @@ public class PDFWordSearchGUI {
             resultArea.setText("Fehler beim Lesen der PDF-Dateien: " + e.getMessage());
         }
     }
-
-
-
 
     private void displayResult(String text, Color color) {
         JLabel countLabel = new JLabel(text);
