@@ -5,8 +5,6 @@ import { Box, Typography, Card, CardContent, Button, CircularProgress, TextField
 import { useRouter } from 'next/navigation';
 import ReactQuill from 'react-quill';
 import ArticleService from "@/api/ArticleService";
-import Cookies from 'js-cookie';
-import UseAuth from "@/app/useAuth/useAuth";
 
 const HomePage = () => {
     const [articles, setArticles] = useState<any[]>([]);
@@ -16,7 +14,6 @@ const HomePage = () => {
     const [editingArticle, setEditingArticle] = useState<any | null>(null);
     const router = useRouter();
     const { getAllArticles, updateArticle, deleteArticle } = ArticleService();
-    const {logout} = UseAuth()
     useEffect(() => {
         const fetchArticles = async () => {
             const token =  localStorage.getItem("token");
@@ -45,47 +42,7 @@ const HomePage = () => {
         fetchArticles().then(r => console.log(r));
     }, [router]);
 
-    const handleEdit = (article: any) => {
-        setEditingArticle({
-            ...article,
-            content: article.content
-        });
-    };
 
-    const handleSave = async () => {
-        if (editingArticle) {
-            const token = Cookies.get('token');
-            try {
-                await updateArticle(editingArticle.id, token!, {
-                    title: editingArticle.title,
-                    description: editingArticle.description,
-                    content: editingArticle.content,
-                }, token!);
-                setEditingArticle(null);
-                const response = await getAllArticles(token!);
-                setArticles(response);
-            } catch (error) {
-                console.error('Fehler beim Speichern des Artikels:', error);
-                setError('Fehler beim Speichern des Artikels.');
-            }
-        }
-    };
-
-    const handleDelete = async (articleId: number) => {
-        if (!articleId) {
-            setError('Ungültige Artikel-ID.');
-            return;
-        }
-
-        try {
-            const token = Cookies.get('token');
-            await deleteArticle(articleId, token!);
-            setArticles(prevArticles => prevArticles.filter(article => article.id !== articleId));
-        } catch (error) {
-            console.error('Fehler beim Löschen des Artikels:', error);
-            setError('Fehler beim Löschen des Artikels.');
-        }
-    };
 
     if (loading) {
         return (
@@ -152,12 +109,7 @@ const HomePage = () => {
                                             sx={{ mt: 2, mb: 2 }}
                                             dangerouslySetInnerHTML={{ __html: article.content }}
                                         />
-                                        {(role === 'admin' || role === 'Admin') &&
-                                            <Box display="flex" justifyContent="space-between">
-                                                <Button variant="outlined" color="primary" onClick={() => handleEdit(article)}>Bearbeiten</Button>
-                                                <Button variant="outlined" color="secondary" onClick={() => handleDelete(article.id)}>Löschen</Button>
-                                            </Box>
-                                        }
+
                                     </>
                                 )}
                             </CardContent>

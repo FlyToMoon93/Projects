@@ -110,7 +110,14 @@ const useArticleService = () => {
                 throw new Error(`Delete article failed: ${response.statusText}`);
             }
 
-            return await response.json();
+            // Prüfen Sie, ob eine Antwort vorhanden ist und parsen Sie JSON nur dann
+            const contentType = response.headers.get('Content-Type');
+            if (contentType && contentType.includes('application/json')) {
+                return await response.json();
+            }
+
+            // Falls keine JSON-Antwort zurückkommt, geben wir null oder einen leeren Wert zurück
+            return null;
         } catch (err) {
             throw err;
         }

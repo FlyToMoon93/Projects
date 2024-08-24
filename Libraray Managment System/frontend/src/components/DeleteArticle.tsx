@@ -78,12 +78,23 @@ const DeleteArticle = () => {
 
         try {
             const token = localStorage.getItem('token');
-            await deleteArticle(articleId, token!);
+            const response = await deleteArticle(articleId, token!);
+
+            // Überprüfen, ob die Antwort leer ist
+            if (response && response.headers.get('content-length') !== '0') {
+                const data = await response.json();
+                console.log('Artikel erfolgreich gelöscht:', data);
+            } else {
+                console.log('Artikel erfolgreich gelöscht, aber keine Daten zurückgegeben.');
+            }
+
             setArticless(prevArticles => prevArticles.filter(article => article.id !== articleId));
         } catch (error) {
             console.error('Fehler beim Löschen des Artikels:', error);
             setError('Fehler beim Löschen des Artikels.');
         }
+
+
     };
 
     if (loading) {
