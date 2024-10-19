@@ -1,0 +1,16 @@
+header.app-title {
+    color: black;
+    padding: 20px;
+    text-align: center; /* Center text */
+    font-size: 0.8rem; /* Adjust font size */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add spacing below the header */
+    border-radius: 8px; /* Rounded corners */
+}
+
+@media (max-width: 768px) {
+    header.app-title {
+        font-size: 1.5rem; /* Adjust for smaller screens */
+        padding: 15px;
+    }
+}

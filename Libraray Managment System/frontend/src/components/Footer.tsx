@@ -22,33 +22,14 @@ const Footer = () => {
                             Wir sind ein Team von Webentwicklern, die sich auf moderne und benutzerfreundliche Webanwendungen spezialisiert haben.
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <Typography variant="h6">Links</Typography>
-                        <Box>
-                            <Link href="#" variant="body2" color="inherit" underline="hover" sx={{ display: 'block', mb: 0.5 }}>
-                                Startseite
-                            </Link>
-                            <Link href="#" variant="body2" color="inherit" underline="hover" sx={{ display: 'block', mb: 0.5 }}>
-                                Über uns
-                            </Link>
-                            <Link href="#" variant="body2" color="inherit" underline="hover" sx={{ display: 'block', mb: 0.5 }}>
-                                Kontakt
-                            </Link>
-                        </Box>
-                    </Grid>
+
                     <Grid item xs={12} sm={4}>
                         <Typography variant="h6">Folge Uns</Typography>
                         <Box>
-                            <IconButton aria-label="Facebook" href="#" color="inherit">
-                                <Facebook />
-                            </IconButton>
-                            <IconButton aria-label="Twitter" href="#" color="inherit">
-                                <Twitter />
-                            </IconButton>
-                            <IconButton aria-label="Instagram" href="#" color="inherit">
+                            <IconButton aria-label="Instagram" href="https://www.instagram.com/khalil.ibesh/" color="inherit">
                                 <Instagram />
                             </IconButton>
-                            <IconButton aria-label="LinkedIn" href="#" color="inherit">
+                            <IconButton aria-label="LinkedIn" href="https://www.linkedin.com/in/khalil-ibesh-9b4632257/" color="inherit">
                                 <LinkedIn />
                             </IconButton>
                         </Box>
@@ -56,7 +37,7 @@ const Footer = () => {
                 </Grid>
                 <Box mt={2} textAlign="center">
                     <Typography variant="body2" color="#fff">
-                        &copy; {new Date().getFullYear()} Dein Unternehmen. Alle Rechte vorbehalten.
+                        &copy; {new Date().getFullYear()} Cloud Applications und Security Engineering.
                     </Typography>
                 </Box>
             </Container>

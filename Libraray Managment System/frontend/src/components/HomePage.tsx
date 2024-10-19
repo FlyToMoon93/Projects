@@ -5,6 +5,7 @@ import { Box, Typography, Card, CardContent, Button, CircularProgress, TextField
 import { useRouter } from 'next/navigation';
 import ReactQuill from 'react-quill';
 import ArticleService from "@/api/ArticleService";
+import useAuth from "@/app/useAuth/useAuth";
 
 const HomePage = () => {
     const [articles, setArticles] = useState<any[]>([]);
@@ -13,6 +14,7 @@ const HomePage = () => {
     const [role, setRole] = useState<string | undefined>(null);
     const [editingArticle, setEditingArticle] = useState<any | null>(null);
     const router = useRouter();
+    const {isAuthenticated,logout} = useAuth();
     const { getAllArticles, updateArticle, deleteArticle } = ArticleService();
     useEffect(() => {
         const fetchArticles = async () => {
@@ -23,6 +25,7 @@ const HomePage = () => {
             console.log(token)
 
             if (!token) {
+
                 setError('Melde dich bitte erst einmal an, um Artikel lesen zu können!');
                 setLoading(false);
                 return;
@@ -90,14 +93,7 @@ const HomePage = () => {
                                             formats={HomePage.formats}
                                             style={{ height: '400px', marginBottom: '20px' }}
                                         />
-                                        <Box sx={{ paddingTop: '40px' }}>
-                                            <Button variant="outlined" color="primary" onClick={handleSave}>
-                                                Speichern
-                                            </Button>
-                                            <Button variant="outlined" color="secondary" onClick={() => setEditingArticle(null)}>
-                                                Abbrechen
-                                            </Button>
-                                        </Box>
+npm
                                     </>
                                 ) : (
                                     <>
