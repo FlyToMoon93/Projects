@@ -6,8 +6,8 @@ const useSocket = () => {
     const [routes, setRoutes] = useState<Route[]>([]);
 
     useEffect(() => {
-        const socket = io('http://' + window.location.hostname + ':' + window.location.port, {
-            transports: ['websocket']
+        const socket = io('https://frontend.univ.leitwert.net/', {
+            transports: ['polling']
         });
 
         socket.on('connect', () => {
