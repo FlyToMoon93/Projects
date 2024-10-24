@@ -6,9 +6,9 @@ import { Route } from "./types/route";
 
 const BGPRoutenVisualisierung: React.FC = () => {
     const [routes, setRoutes] = useState<Route[]>([]);
-    const [isFetching, setIsFetching] = useState(true);
-    const socketRoutes = useSocket();  // Hole die Routen vom Backend per Socket
-   /* const socketRoutes =   [
+    const [isFetching, setIsFetching] = useState(false);
+   // const socketRoutes = useSocket();  // Hole die Routen vom Backend per Socket
+    const socketRoutes =   [
         { prefix: '1.1.0.0/24', next_hop: '172.17.179.104', timestamp: '2024-10-19 15:41:06', anomaly: false },
         { prefix: '1.1.0.0/25', next_hop: '172.17.179.104', timestamp: '2024-10-19 15:41:06', anomaly: false },
         { prefix: '173.209.104.0/21', next_hop: '80.81.192.172', timestamp: '2024-10-19 15:41:06', anomaly: true },
@@ -17,7 +17,7 @@ const BGPRoutenVisualisierung: React.FC = () => {
         { prefix: '185.190.148.0/23', next_hop: '80.81.194.174', timestamp: '2024-10-19 15:41:06', anomaly: false },
         { prefix: '185.190.150.0/24', next_hop: '80.81.194.174', timestamp: '2024-10-19 15:41:06', anomaly: false },
         { prefix: '2001:43f8:d60::/48', next_hop: '2001:7f8::1b1b:0:1', timestamp: '2024-10-19 15:41:06', anomaly: true }
-    ];*/
+    ];
     useEffect(() => {
         if (isFetching && socketRoutes.length > 0) {
             // Setze die Routen aus dem Socket in den State

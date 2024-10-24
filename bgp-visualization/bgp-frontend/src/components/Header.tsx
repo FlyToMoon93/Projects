@@ -45,9 +45,9 @@ const Header: FC<HeaderProps> = ({ totalRoutes, totalAnomalies, lastUpdated, onS
 
             <Box sx={{ marginTop: '20px' }}>
                 {isFetching ? (
-                    <Button variant="contained" color="secondary" onClick={onStop}>Stop Fetching Data</Button>
+                    <Button variant="contained" color="secondary" onClick={onStop}>Stop Fetching Routes</Button>
                 ) : (
-                    <Button variant="contained" color="primary" onClick={onStart}>Start Fetching Data</Button>
+                    <Button variant="contained" color="primary" onClick={onStart}>Start Fetching Routes</Button>
                 )}
             </Box>
         </StyledPaper>

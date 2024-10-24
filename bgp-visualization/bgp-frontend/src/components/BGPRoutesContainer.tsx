@@ -11,7 +11,6 @@ const BGPRoutesContainer: React.FC<BGPRoutesContainerProps> = ({ routes }) => {
     const [filteredRoutes, setFilteredRoutes] = useState<Route[]>(routes);
 
 
-
     return (
         <div>
 

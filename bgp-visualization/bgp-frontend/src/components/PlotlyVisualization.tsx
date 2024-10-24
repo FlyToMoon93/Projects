@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Plotly from 'plotly.js-dist-min';
 import { Route } from '../types/route';
 import { Box } from '@mui/material';
@@ -9,7 +9,7 @@ interface PlotlyVisualizationProps {
 }
 
 const PlotContainer = styled(Box)(({ theme }) => ({
-    height: '600px',
+    height: '560px',
     marginBottom: '40px',
     width: '100%',
     border: '2px solid #ddd',
@@ -25,64 +25,92 @@ const PlotContainer = styled(Box)(({ theme }) => ({
 const DataContainer = styled('div')({
     textAlign: 'center',
     color: 'red',
-    height: '560px',
+    height: '100%',
+    width: '100%',
     fontSize: '24px',
 });
 
-
 const PlotlyVisualization: React.FC<PlotlyVisualizationProps> = ({ routes }) => {
-    useEffect(() => {
-        const initPlot = () => {
-            const initialX: string[] = routes.map(route => route.timestamp);
-            const initialY: string[] = routes.map(route => route.prefix);
-            const initialColors: string[] = routes.map(route => (route.anomaly ? '#FF4136' : '#0074D9'));
-            const initialSizes: number[] = Array(routes.length).fill(12); // Initial sizes for markers
+    const plotRef = useRef<HTMLDivElement | null>(null);
 
-            const data = [{
-                x: initialX,
-                y: initialY,
-                mode: 'markers+text' as const,
-                marker: { size: initialSizes, color: initialColors },
-                text: initialY,
-                textposition: 'top center' as const,
-                hoverinfo: 'text' as const,
-            }];
+    const initPlot = () => {
+        if (!plotRef.current) return;
 
-            const layout: Partial<Plotly.Layout> = {
-                title: {
-                    text: 'Live Route Updates',
-                    font: { size: 24, color: '#333' },
-                },
-                xaxis: { title: 'Time', type: 'category', automargin: true },
-                yaxis: { title: '', automargin: true },
-                paper_bgcolor: 'transparent',
-                plot_bgcolor: 'transparent',
-                font: { color: '#333' },
-            };
+        const initialX: string[] = routes.map(route => route.timestamp);
+        const initialY: string[] = routes.map(route => route.prefix);
+        const initialColors: string[] = routes.map(route => (route.anomaly ? '#FF4136' : '#0074D9'));
+        const initialSizes: number[] = Array(routes.length).fill(12);
 
-            Plotly.newPlot('plot', data, layout);
+        const data = [{
+            x: initialX,
+            y: initialY,
+            mode: 'markers+text' as const,
+            marker: { size: initialSizes, color: initialColors },
+            text: initialY,
+            textposition: 'top center' as const,
+            hoverinfo: 'text' as const,
+        }];
+
+        const layout: Partial<Plotly.Layout> = {
+            title: {
+                text: 'Live Route Updates',
+                font: { size: 24, color: '#333' },
+            },
+            xaxis: { title: 'Time', type: 'category', automargin: true },
+            yaxis: { title: '', automargin: true },
+            paper_bgcolor: '#ffffff',
+            plot_bgcolor: '#ffffff',
+            font: { color: '#333' },
         };
 
+        const config: Partial<Plotly.Config> = {
+            responsive: true,
+            toImageButtonOptions: {
+                format: 'png',
+                filename: 'bgp-routes',
+            },
+        };
+
+        Plotly.newPlot(plotRef.current, data, layout, config)
+    };
+
+    const handleResize = () => {
+        if (plotRef.current) {
+            Plotly.Plots.resize(plotRef.current);
+        }
+    };
+
+    useEffect(() => {
         initPlot();
+
+        const resizeObserver = new ResizeObserver(handleResize);
+        if (plotRef.current) {
+            resizeObserver.observe(plotRef.current);
+        }
+
+        return () => {
+            if (plotRef.current) {
+                resizeObserver.unobserve(plotRef.current);
+            }
+        };
     }, [routes]);
 
     useEffect(() => {
-        if (routes.length > 0) {
+        if (routes.length > 0 && plotRef.current) {
             const latestRoute = routes[routes.length - 1];
             const color = latestRoute.anomaly ? '#FF4136' : '#006400';
 
-            // Add new values to the chart
-            Plotly.extendTraces('plot', {
-                x: [[latestRoute.timestamp]], // Array with one value
-                y: [[latestRoute.prefix]],     // Array with one value
-                'marker.color': [[color]]      // Array with one color
-            }, [0]);
+            Plotly.extendTraces(plotRef.current, {
+                x: [[latestRoute.timestamp]],
+                y: [[latestRoute.prefix]],
+                'marker.color': [[color]],
+            }, [0])
         }
     }, [routes]);
 
     return (
         <PlotContainer>
-            <DataContainer id="plot" />
+            <DataContainer ref={plotRef} />
         </PlotContainer>
     );
 };
