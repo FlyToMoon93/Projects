@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7f6;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #2c5364;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+/* Resume Section */
+.pdf-viewer {
+  margin-bottom: 20px;
+}
+
+.download-resume {
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-resume:hover {
+  background-color: #005f8a;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+

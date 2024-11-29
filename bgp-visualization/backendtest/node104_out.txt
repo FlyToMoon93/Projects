@@ -1,0 +1,242 @@
+neighbor 172.17.179.103 connected
+
+neighbor 172.17.179.103 up
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 173.209.104.0/21 next-hop 80.81.192.172 origin igp as-path [ 6939 3770 13536 32508 ] med 815 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2402:ab00::/32 next-hop 2001:7f8::950e:0:1 origin igp as-path [ 38158 24206 ] local-preference 100 community 38158:65030 large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6141 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 185.190.148.0/23 next-hop 80.81.194.174 origin igp as-path [ 35297 48648 205957 ] local-preference 100 large-community [ 6695:1911:163 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update announced 185.190.150.0/24 next-hop 80.81.194.174 origin igp as-path [ 35297 48648 205957 ] local-preference 100 large-community [ 6695:1911:163 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2001:43f8:d60::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 16637 9129 328162 328162 328162 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 185.190.148.0/23 next-hop 80.81.193.180 origin igp as-path [ 3326 13249 48648 205957 ] med 1648 local-preference 100 community [ 3326:3003 3326:11001 3326:22050 3326:50990 48648:105 ] large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update announced 185.190.150.0/24 next-hop 80.81.193.180 origin igp as-path [ 3326 13249 48648 205957 ] med 1648 local-preference 100 community [ 3326:3003 3326:11001 3326:22050 3326:50990 48648:105 ] large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 204.137.152.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.154.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.156.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.158.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 197.216.59.0/24 next-hop 80.81.193.103 origin incomplete as-path [ 37468 11259 ] med 0 local-preference 100 community [ 37468:3000 37468:3037 37468:3100 37468:3110 37468:3111 37468:5555 37468:11000 37468:11100 37468:11101 37468:37468 ] large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a0a:280:1780::/44 next-hop 2001:7f8::232a:0:1 origin igp as-path [ 9002 52041 201217 ] local-preference 100 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a0a:280:1770::/44 next-hop 2001:7f8::232a:0:1 origin igp as-path [ 9002 52041 201217 ] local-preference 100 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a12:dd47:f010::/44 next-hop 2001:7f8::232a:0:1 origin igp as-path [ 9002 52041 201217 ] local-preference 100 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a13:a5c6:6500::/40 next-hop 2001:7f8::232a:0:1 origin igp as-path [ 9002 52041 201217 ] local-preference 100 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2607:f6f0:5001::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 27224 394749 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:f::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:b::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:5::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:a::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:4::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:2::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:e::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:8::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:9::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:3::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:c::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:1::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:7::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:6::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:5440:d::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 9498 56272 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2804:1e10:ffff::/48 next-hop 2001:7f8::cd47:0:1 origin igp as-path [ 52551 53122 ] med 100 local-preference 100 large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a02:47a0:a::/48 next-hop 2001:7f8::232a:0:1 origin igp as-path [ 9002 9049 48858 49673 ] local-preference 100 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2607:f6f0:5000::/40 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 27224 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2607:f6f0:202::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 27224 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2607:f6f0:5002::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 27224 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a0e:97c0:78f::/48 next-hop 2001:7f8::886f:0:1 origin igp as-path [ 34927 210397 ] local-preference 100 community 34927:122 large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2402:9880:500::/40 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 27224 58744 ] med 0 local-preference 100 large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2404:2280:15b::/48 next-hop 2001:7f8::5fa2:0:1 origin igp as-path [ 24482 151326 151326 151552 151552 24429 ] med 157122 local-preference 100 atomic-aggregate aggregator ( 24429:163.181.93.247 ) large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2804:1e10::/32 next-hop 2001:7f8::cd47:0:1 origin igp as-path [ 52551 53122 ] med 100 local-preference 100 large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+done
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2001:43f8:d60::/48 next-hop 2001:7f8::90ec:0:1 origin igp as-path [ 37100 328162 ] local-preference 100 community [ 37100:10000 37100:11000 37100:11003 37100:11033 37100:53023 ] large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+done
+done
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2602:fed2:770a::/48 next-hop 2001:7f8::1b1b:0:1 origin igp as-path [ 6939 397423 25846 ] med 0 local-preference 100 aggregator ( 25846:10.10.12.1 ) large-community [ 6695:1911:90 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 156.248.60.0/24 next-hop 80.81.193.51 origin igp as-path [ 58453 58453 58453 135056 136933 136933 136933 136933 136950 ] med 100 local-preference 100 atomic-aggregate aggregator ( 136950:10.10.12.3 ) large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 217.60.245.0/24 next-hop 80.81.194.185 origin igp as-path [ 29049 49666 12880 42337 198154 ] local-preference 100 community 42337:38 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6160 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6170 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2804:1e10:ffff::/48 next-hop 2001:7f8::925c:0:1 origin igp as-path [ 37468 22381 52551 53122 ] med 0 local-preference 100 community [ 24115:24115 37468:3000 37468:3300 37468:3310 37468:3312 37468:3374 37468:13000 37468:13100 37468:13102 37468:30065 37468:37468 63034:63034 ] large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6181 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6191 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 204.137.152.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.154.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.156.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update announced 204.137.158.0/23 next-hop 80.81.194.192 origin igp as-path [ 7049 264681 264681 264681 ] local-preference 100 aggregator ( 264681:10.2.2.51 ) community 7049:51101 large-community [ 6695:1911:196 6695:1912:4 6695:1913:840 6695:1914:19 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2620:95:4000::/46 next-hop 2001:7f8::4ff9:0:1 origin igp as-path [ 20473 40138 ] local-preference 100 community [ 20473:22 20473:4000 40138:1106 ] large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 20473:0:3150276122 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2620:95:4001::/48 next-hop 2001:7f8::4ff9:0:1 origin igp as-path [ 20473 40138 ] local-preference 100 community [ 20473:22 20473:4000 40138:1106 ] large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 20473:0:3150276122 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2620:95:4002::/48 next-hop 2001:7f8::4ff9:0:1 origin igp as-path [ 20473 40138 ] local-preference 100 community [ 20473:22 20473:4000 40138:1106 ] large-community [ 6695:1911:89 6695:1912:0 6695:1913:276 6695:1914:150 20473:0:3150276122 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a10:c5c1:bdae::/48 next-hop 2001:7f8::7156:0:1 origin igp as-path [ 29014 211547 ] local-preference 100 large-community [ 6695:1911:122 6695:1912:2 6695:1913:276 6695:1914:150 211547:65123:6201 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 receive update start
+neighbor 172.17.179.103 receive update announced 2a02:47a0:a::/48 next-hop 2001:7f8::beda:0:1 origin igp as-path [ 48858 49673 ] local-preference 100 extended-community target:48858:50 large-community [ 6695:1911:82 6695:1912:0 6695:1913:276 6695:1914:150 ]
+neighbor 172.17.179.103 receive update end
+
+neighbor 172.17.179.103 down - stop, message [shutting down]
+
+shutdown 14851 14850

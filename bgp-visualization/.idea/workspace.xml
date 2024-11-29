@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="727467b3-685a-42fb-8496-c5aba2f2b8a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backendtest/prefix_comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/build/static/js/453.c4b61ab3.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/build/static/js/453.c4b61ab3.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bgp-frontend/src/components/CityList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-bgp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backendtest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/20241005_0000_1728086400_geoip_ripe_ipmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/20241005_0000_1728086400_meta_iso3166_country.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/20241005_0000_1728086400_meta_potaroo_asname.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backendtest/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/backendtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backendtest/backendtest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/453.c4b61ab3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/453.c4b61ab3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.19db37b5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.19db37b5.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.19db37b5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.1da59b0f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.1da59b0f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.1da59b0f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3107b6ce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3107b6ce.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3107b6ce.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.398251d8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.398251d8.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.398251d8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3a6acb71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3a6acb71.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3a6acb71.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3ff3db1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3ff3db1c.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.3ff3db1c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.5099523a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.5099523a.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.5099523a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.76aaaa86.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.76aaaa86.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.76aaaa86.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.7f1a97bc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.7f1a97bc.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.7f1a97bc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.8d07d31e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.8d07d31e.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.8d07d31e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.98c0b6d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.98c0b6d7.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.98c0b6d7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ab7f6346.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ab7f6346.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ab7f6346.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b06683fc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b06683fc.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b06683fc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b51c73bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b51c73bb.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.b51c73bb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.c54afe16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.c54afe16.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.c54afe16.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ddad52f0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ddad52f0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.ddad52f0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.e9883cfa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.e9883cfa.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendtest/build/static/js/main.e9883cfa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgb-backend/bgb-backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/bgp-backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/java/org/example/bgpbackend/BgpApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/java/org/example/bgpbackend/Route.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/java/org/example/bgpbackend/RouteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/java/org/example/bgpbackend/RouteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/main/resources/node103_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-backend/src/test/java/org/example/bgpbackend/BgpBackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/BGPRoutenVisualisierung.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/BGPRoutenVisualisierung.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/components/BGPRoutesContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/components/BGPRoutesContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/components/InfoPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/components/InfoPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/hooks/useSocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/hooks/useSocket.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgp-frontend/src/types/route.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bgp-frontend/src/types/route.d.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2nZRqYU9GDr4envA0ZLckXy0TAk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Projects/bgp-visualization&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/bgp-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="727467b3-685a-42fb-8496-c5aba2f2b8a5" name="Changes" comment="" />
+      <created>1729178803951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729178803951</updated>
+      <workItem from="1729178804806" duration="1467000" />
+      <workItem from="1729180300022" duration="1222000" />
+      <workItem from="1729181543248" duration="1251000" />
+      <workItem from="1729234608029" duration="4422000" />
+      <workItem from="1729334233989" duration="64000" />
+      <workItem from="1729353820753" duration="16000" />
+      <workItem from="1729353853342" duration="24000" />
+      <workItem from="1729353895012" duration="5000" />
+      <workItem from="1729353919784" duration="63000" />
+      <workItem from="1729354008373" duration="24000" />
+      <workItem from="1729354044122" duration="175000" />
+      <workItem from="1729354309174" duration="243000" />
+      <workItem from="1729354580623" duration="1260000" />
+      <workItem from="1730978207888" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

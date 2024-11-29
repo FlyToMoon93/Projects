@@ -1,0 +1,14 @@
+[
+    {
+        "ip": "208.115.137.104/32",
+        "geolocation_id": "CHICAGO-US-IL-DP3WJ6X4JG19P15JF53W",
+        "city_name": "Chicago",
+        "state_name": "Illinois",
+        "country_name": "United States",
+        "country_code_alpha2": "US",
+        "country_code_alpha3": "USA",
+        "latitude": 41.85003,
+        "longitude": -87.65005,
+        "score": 34.0
+    }
+]

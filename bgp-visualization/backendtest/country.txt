@@ -1,0 +1,249 @@
+{"countryCode": "AF", "countryName": "Afghanistan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "AX", "countryName": "Åland Islands", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "AL", "countryName": "Albania", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "DZ", "countryName": "Algeria", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "AS", "countryName": "American Samoa", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "AD", "countryName": "Andorra", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "AO", "countryName": "Angola", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "AI", "countryName": "Anguilla", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "AQ", "countryName": "Antarctica", "continentCode": "AQ", "continentName": "Antarctica"}
+{"countryCode": "AG", "countryName": "Antigua and Barbuda", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "AR", "countryName": "Argentina", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "AM", "countryName": "Armenia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "AW", "countryName": "Aruba", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "AU", "countryName": "Australia", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "AT", "countryName": "Austria", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "AZ", "countryName": "Azerbaijan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "BS", "countryName": "Bahamas", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BH", "countryName": "Bahrain", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "BD", "countryName": "Bangladesh", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "BB", "countryName": "Barbados", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BY", "countryName": "Belarus", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "BE", "countryName": "Belgium", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "BZ", "countryName": "Belize", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BJ", "countryName": "Benin", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "BM", "countryName": "Bermuda", "continentCode": "NA", "continentName": "Northern America"}
+{"countryCode": "BT", "countryName": "Bhutan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "BO", "countryName": "Bolivia, Plurinational State of", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BQ", "countryName": "Bonaire, Sint Eustatius and Saba", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BA", "countryName": "Bosnia and Herzegovina", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "BW", "countryName": "Botswana", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "BV", "countryName": "Bouvet Island", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "BR", "countryName": "Brazil", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "IO", "countryName": "British Indian Ocean Territory", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "BN", "countryName": "Brunei Darussalam", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "BG", "countryName": "Bulgaria", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "BF", "countryName": "Burkina Faso", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "BI", "countryName": "Burundi", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CV", "countryName": "Cabo Verde", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "KH", "countryName": "Cambodia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "CM", "countryName": "Cameroon", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CA", "countryName": "Canada", "continentCode": "NA", "continentName": "Northern America"}
+{"countryCode": "KY", "countryName": "Cayman Islands", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "CF", "countryName": "Central African Republic", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "TD", "countryName": "Chad", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CL", "countryName": "Chile", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "CN", "countryName": "China", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "CX", "countryName": "Christmas Island", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "CC", "countryName": "Cocos (Keeling) Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "CO", "countryName": "Colombia", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "KM", "countryName": "Comoros", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CG", "countryName": "Congo", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CD", "countryName": "Congo, Democratic Republic of the", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "CK", "countryName": "Cook Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "CR", "countryName": "Costa Rica", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "CI", "countryName": "Côte d'Ivoire", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "HR", "countryName": "Croatia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "CU", "countryName": "Cuba", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "CW", "countryName": "Curaçao", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "CY", "countryName": "Cyprus", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "CZ", "countryName": "Czechia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "DK", "countryName": "Denmark", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "DJ", "countryName": "Djibouti", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "DM", "countryName": "Dominica", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "DO", "countryName": "Dominican Republic", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "EC", "countryName": "Ecuador", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "EG", "countryName": "Egypt", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "SV", "countryName": "El Salvador", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "GQ", "countryName": "Equatorial Guinea", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "ER", "countryName": "Eritrea", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "EE", "countryName": "Estonia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SZ", "countryName": "Eswatini", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "ET", "countryName": "Ethiopia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "FK", "countryName": "Falkland Islands (Malvinas)", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "FO", "countryName": "Faroe Islands", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "FJ", "countryName": "Fiji", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "FI", "countryName": "Finland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "FR", "countryName": "France", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "GF", "countryName": "French Guiana", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "PF", "countryName": "French Polynesia", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "TF", "countryName": "French Southern Territories", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GA", "countryName": "Gabon", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GM", "countryName": "Gambia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GE", "countryName": "Georgia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "DE", "countryName": "Germany", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "GH", "countryName": "Ghana", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GI", "countryName": "Gibraltar", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "GR", "countryName": "Greece", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "GL", "countryName": "Greenland", "continentCode": "NA", "continentName": "Northern America"}
+{"countryCode": "GD", "countryName": "Grenada", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "GP", "countryName": "Guadeloupe", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "GU", "countryName": "Guam", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "GT", "countryName": "Guatemala", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "GG", "countryName": "Guernsey", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "GN", "countryName": "Guinea", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GW", "countryName": "Guinea-Bissau", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GY", "countryName": "Guyana", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "HT", "countryName": "Haiti", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "HM", "countryName": "Heard Island and McDonald Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "VA", "countryName": "Holy See", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "HN", "countryName": "Honduras", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "HK", "countryName": "Hong Kong", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "HU", "countryName": "Hungary", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "IS", "countryName": "Iceland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "IN", "countryName": "India", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "ID", "countryName": "Indonesia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "IR", "countryName": "Iran, Islamic Republic of", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "IQ", "countryName": "Iraq", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "IE", "countryName": "Ireland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "IM", "countryName": "Isle of Man", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "IL", "countryName": "Israel", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "IT", "countryName": "Italy", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "JM", "countryName": "Jamaica", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "JP", "countryName": "Japan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "JE", "countryName": "Jersey", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "JO", "countryName": "Jordan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "KZ", "countryName": "Kazakhstan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "KE", "countryName": "Kenya", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "KI", "countryName": "Kiribati", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "KP", "countryName": "Korea, Democratic People's Republic of", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "KR", "countryName": "Korea, Republic of", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "KW", "countryName": "Kuwait", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "KG", "countryName": "Kyrgyzstan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "LA", "countryName": "Lao People's Democratic Republic", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "LV", "countryName": "Latvia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "LB", "countryName": "Lebanon", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "LS", "countryName": "Lesotho", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "LR", "countryName": "Liberia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "LY", "countryName": "Libya", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "LI", "countryName": "Liechtenstein", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "LT", "countryName": "Lithuania", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "LU", "countryName": "Luxembourg", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MO", "countryName": "Macao", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "MG", "countryName": "Madagascar", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MW", "countryName": "Malawi", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MY", "countryName": "Malaysia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "MV", "countryName": "Maldives", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "ML", "countryName": "Mali", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MT", "countryName": "Malta", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MH", "countryName": "Marshall Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "MQ", "countryName": "Martinique", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "MR", "countryName": "Mauritania", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MU", "countryName": "Mauritius", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "YT", "countryName": "Mayotte", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MX", "countryName": "Mexico", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "FM", "countryName": "Micronesia, Federated States of", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "MD", "countryName": "Moldova, Republic of", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MC", "countryName": "Monaco", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MN", "countryName": "Mongolia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "ME", "countryName": "Montenegro", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MS", "countryName": "Montserrat", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "MA", "countryName": "Morocco", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MZ", "countryName": "Mozambique", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "MM", "countryName": "Myanmar", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "NA", "countryName": "Namibia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "NR", "countryName": "Nauru", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "NP", "countryName": "Nepal", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "NL", "countryName": "Netherlands, Kingdom of the", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "NC", "countryName": "New Caledonia", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "NZ", "countryName": "New Zealand", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "NI", "countryName": "Nicaragua", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "NE", "countryName": "Niger", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "NG", "countryName": "Nigeria", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "NU", "countryName": "Niue", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "NF", "countryName": "Norfolk Island", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "MK", "countryName": "North Macedonia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "MP", "countryName": "Northern Mariana Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "NO", "countryName": "Norway", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "OM", "countryName": "Oman", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "PK", "countryName": "Pakistan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "PW", "countryName": "Palau", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "PS", "countryName": "Palestine, State of", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "PA", "countryName": "Panama", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "PG", "countryName": "Papua New Guinea", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "PY", "countryName": "Paraguay", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "PE", "countryName": "Peru", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "PH", "countryName": "Philippines", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "PN", "countryName": "Pitcairn", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "PL", "countryName": "Poland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "PT", "countryName": "Portugal", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "PR", "countryName": "Puerto Rico", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "QA", "countryName": "Qatar", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "RE", "countryName": "Réunion", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "RO", "countryName": "Romania", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "RU", "countryName": "Russian Federation", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "RW", "countryName": "Rwanda", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "BL", "countryName": "Saint Barthélemy", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "SH", "countryName": "Saint Helena, Ascension and Tristan da Cunha", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "KN", "countryName": "Saint Kitts and Nevis", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "LC", "countryName": "Saint Lucia", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "MF", "countryName": "Saint Martin (French part)", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "PM", "countryName": "Saint Pierre and Miquelon", "continentCode": "NA", "continentName": "Northern America"}
+{"countryCode": "VC", "countryName": "Saint Vincent and the Grenadines", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "WS", "countryName": "Samoa", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "SM", "countryName": "San Marino", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "ST", "countryName": "Sao Tome and Principe", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "SA", "countryName": "Saudi Arabia", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "SN", "countryName": "Senegal", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "RS", "countryName": "Serbia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SC", "countryName": "Seychelles", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "SL", "countryName": "Sierra Leone", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "SG", "countryName": "Singapore", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "SX", "countryName": "Sint Maarten (Dutch part)", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "SK", "countryName": "Slovakia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SI", "countryName": "Slovenia", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SB", "countryName": "Solomon Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "SO", "countryName": "Somalia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "ZA", "countryName": "South Africa", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "GS", "countryName": "South Georgia and the South Sandwich Islands", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "SS", "countryName": "South Sudan", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "ES", "countryName": "Spain", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "LK", "countryName": "Sri Lanka", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "SD", "countryName": "Sudan", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "SR", "countryName": "Suriname", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "SJ", "countryName": "Svalbard and Jan Mayen", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SE", "countryName": "Sweden", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "CH", "countryName": "Switzerland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "SY", "countryName": "Syrian Arab Republic", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TW", "countryName": "Taiwan, Province of China"}
+{"countryCode": "TJ", "countryName": "Tajikistan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TZ", "countryName": "Tanzania, United Republic of", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "TH", "countryName": "Thailand", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TL", "countryName": "Timor-Leste", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TG", "countryName": "Togo", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "TK", "countryName": "Tokelau", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "TO", "countryName": "Tonga", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "TT", "countryName": "Trinidad and Tobago", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "TN", "countryName": "Tunisia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "TR", "countryName": "Türkiye", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TM", "countryName": "Turkmenistan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "TC", "countryName": "Turks and Caicos Islands", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "TV", "countryName": "Tuvalu", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "UG", "countryName": "Uganda", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "UA", "countryName": "Ukraine", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "AE", "countryName": "United Arab Emirates", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "GB", "countryName": "United Kingdom of Great Britain and Northern Ireland", "continentCode": "EU", "continentName": "Europe"}
+{"countryCode": "US", "countryName": "United States of America", "continentCode": "NA", "continentName": "Northern America"}
+{"countryCode": "UM", "countryName": "United States Minor Outlying Islands", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "UY", "countryName": "Uruguay", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "UZ", "countryName": "Uzbekistan", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "VU", "countryName": "Vanuatu", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "VE", "countryName": "Venezuela, Bolivarian Republic of", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "VN", "countryName": "Viet Nam", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "VG", "countryName": "Virgin Islands (British)", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "VI", "countryName": "Virgin Islands (U.S.)", "continentCode": "SA", "continentName": "Latin America and the Caribbean"}
+{"countryCode": "WF", "countryName": "Wallis and Futuna", "continentCode": "OC", "continentName": "Oceania"}
+{"countryCode": "EH", "countryName": "Western Sahara", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "YE", "countryName": "Yemen", "continentCode": "AS", "continentName": "Asia"}
+{"countryCode": "ZM", "countryName": "Zambia", "continentCode": "AF", "continentName": "Africa"}
+{"countryCode": "ZW", "countryName": "Zimbabwe", "continentCode": "AF", "continentName": "Africa"}

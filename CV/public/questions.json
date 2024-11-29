@@ -1,0 +1,304 @@
+[
+    {
+      "question": "Was ist das Geheimnis eines perfekten Büro-Kaffees?",
+      "options": [
+        "Genug Milch und Zucker",
+        "Der richtige Kaffeebohnentyp",
+        "Er ist immer zu heiß",
+        "Die Kaffeemaschine läuft zu lang"
+      ],
+      "correctAnswer": "Der richtige Kaffeebohnentyp"
+    },
+    {
+      "question": "Was macht ein Büro-Stuhl wirklich komfortabel?",
+      "options": [
+        "Er hat die perfekte Rückenstütze",
+        "Die Polsterung ist aus Memory Foam",
+        "Er ist so wackelig, dass du nie lange sitzen musst",
+        "Er hat eingebauten Kaffeehalter"
+      ],
+      "correctAnswer": "Er hat die perfekte Rückenstütze"
+    },
+    {
+      "question": "Was passiert, wenn du in einem Meeting lachst?",
+      "options": [
+        "Alle schauen dich schief an",
+        "Du wirst der Star des Meetings",
+        "Der Chef fragt, ob du etwas anderes zu tun hast",
+        "Jeder lacht mit"
+      ],
+      "correctAnswer": "Alle schauen dich schief an"
+    },
+    {
+      "question": "Was ist das größte Geheimnis des Druckers im Büro?",
+      "options": [
+        "Er funktioniert immer, wenn du es am wenigsten erwartest",
+        "Er druckt nie, wenn du es am meisten brauchst",
+        "Er ist ein stiller Held",
+        "Er braucht immer Papier"
+      ],
+      "correctAnswer": "Er druckt nie, wenn du es am meisten brauchst"
+    },
+    {
+      "question": "Was machst du, wenn der Computer abstürzt?",
+      "options": [
+        "Du versuchst, ihn zu reparieren",
+        "Du ignorierst ihn und wartest auf das IT-Team",
+        "Du startest ihn neu und hoffst, dass er funktioniert",
+        "Du fängst an zu weinen"
+      ],
+      "correctAnswer": "Du startest ihn neu und hoffst, dass er funktioniert"
+    },
+    {
+      "question": "Was passiert, wenn du zu lange vor dem Bildschirm sitzt?",
+      "options": [
+        "Deine Augen fühlen sich an, als ob sie brennen",
+        "Du wirst zur Maus selbst",
+        "Du fängst an, die Tastatur zu essen",
+        "Du bekommst einen Kaffee-Fix"
+      ],
+      "correctAnswer": "Deine Augen fühlen sich an, als ob sie brennen"
+    },
+    {
+      "question": "Welche Superkraft besitzt die Büro-Maus?",
+      "options": [
+        "Sie ist immer genau dort, wo du sie brauchst",
+        "Sie kann alles steuern, was auf dem Bildschirm passiert",
+        "Sie ist unsichtbar",
+        "Sie verleiht dir besondere Konzentration"
+      ],
+      "correctAnswer": "Sie kann alles steuern, was auf dem Bildschirm passiert"
+    },
+    {
+      "question": "Was tust du, wenn der Chef plötzlich in dein Büro kommt?",
+      "options": [
+        "Du versteckst dich schnell hinter dem Monitor",
+        "Du bist total bereit und sagst: „Ich habe alles unter Kontrolle“",
+        "Du fängst an zu stottern",
+        "Du lächelst und sagst: „Wie kann ich helfen?“"
+      ],
+      "correctAnswer": "Du bist total bereit und sagst: „Ich habe alles unter Kontrolle“"
+    },
+    {
+      "question": "Was passiert, wenn du das Mittagessen im Büro vergisst?",
+      "options": [
+        "Du bist hungrig und musst einen Snack aus dem Kühlschrank holen",
+        "Du fängst an, alle anderen zu fragen, was sie zum Mittagessen haben",
+        "Du gehst hungrig nach Hause",
+        "Du machst das Mittagessen zu einer „Mittagspause“"
+      ],
+      "correctAnswer": "Du bist hungrig und musst einen Snack aus dem Kühlschrank holen"
+    },
+    {
+      "question": "Was ist die beste Taktik, um bei einem Büro-Streit zu gewinnen?",
+      "options": [
+        "Mit einem Monolog über Teamwork antworten",
+        "Schreibe eine lange E-Mail",
+        "Verstecke dich und hoffe, es hört auf",
+        "Lächle und ignoriere es"
+      ],
+      "correctAnswer": "Mit einem Monolog über Teamwork antworten"
+    },
+  
+      {
+        "question": "Was ist der wahre Zweck eines Post-its im Büro?",
+        "options": [
+          "Zur Erinnerung an wichtige Aufgaben",
+          "Um es auf den Monitor zu kleben und es als Dekoration zu verwenden",
+          "Um den Chef zu beeindrucken",
+          "Damit der Bildschirm nicht blendet"
+        ],
+        "correctAnswer": "Zur Erinnerung an wichtige Aufgaben"
+      },
+      {
+        "question": "Was ist der beste Weg, um mit stressigen Deadlines umzugehen?",
+        "options": [
+          "Kaffee in großen Mengen trinken",
+          "Den Kopf in den Sand stecken und hoffen, dass es vorbei geht",
+          "Mit einem tiefen Atemzug und einem klaren Plan vorgehen",
+          "So schnell wie möglich den Chef fragen, ob es wirklich wichtig ist"
+        ],
+        "correctAnswer": "Mit einem tiefen Atemzug und einem klaren Plan vorgehen"
+      },
+      {
+        "question": "Was bedeutet 'Büro-Politik' wirklich?",
+        "options": [
+          "Die Kunst, einen Stuhl zu finden, der sich bequem an den Schreibtisch anpasst",
+          "Wie man seine Kollegen auf der richtigen Seite hält",
+          "Sich immer nach dem besten Platz für das Mittagessen umzusehen",
+          "Es bedeutet, mit der Kaffeemaschine immer die richtige Einstellung zu finden"
+        ],
+        "correctAnswer": "Wie man seine Kollegen auf der richtigen Seite hält"
+      },
+      {
+        "question": "Was ist der wahre Grund, warum das Bürolicht immer zu hell ist?",
+        "options": [
+          "Es ist eine Taktik, um dich wachzuhalten",
+          "Es soll den Raum erhellen und die Produktivität steigern",
+          "Es hat einfach niemanden interessiert, die Helligkeit einzustellen",
+          "Es ist für Videokonferenzen gedacht"
+        ],
+        "correctAnswer": "Es ist eine Taktik, um dich wachzuhalten"
+      },
+      {
+        "question": "Was ist die beste Zeit für eine Kaffeepause?",
+        "options": [
+          "Direkt nach dem Aufstehen",
+          "Wenn der Chef in ein Meeting geht",
+          "Kurz bevor der Energielevel sinkt",
+          "Immer, wenn du die Tasse siehst"
+        ],
+        "correctAnswer": "Kurz bevor der Energielevel sinkt"
+      },
+      {
+        "question": "Was passiert, wenn du das Büro ohne deine Tasche verlässt?",
+        "options": [
+          "Du bekommst sofort ein schlechtes Gefühl, als ob du etwas vergessen hast",
+          "Du hast endlich einen Grund, mit einem Kollegen zu sprechen",
+          "Du gehst einfach nach Hause und vergisst alles",
+          "Du siehst es als Zeichen, dass du den Tag wirklich abgeschlossen hast"
+        ],
+        "correctAnswer": "Du bekommst sofort ein schlechtes Gefühl, als ob du etwas vergessen hast"
+      },
+      {
+        "question": "Wie erkennt man, dass der Arbeitstag zu Ende ist?",
+        "options": [
+          "Der Bildschirm zeigt nur noch Werbung",
+          "Die Kaffeemaschine beginnt, komische Geräusche zu machen",
+          "Das Büro wird ruhig, und jeder beginnt, seine Sachen zu packen",
+          "Der Chef hat das letzte Meeting abgesagt"
+        ],
+        "correctAnswer": "Das Büro wird ruhig, und jeder beginnt, seine Sachen zu packen"
+      },
+      {
+        "question": "Was ist die gefährlichste Frage im Büro?",
+        "options": [
+          "Hast du die Präsentation für das Meeting morgen fertig?",
+          "Kannst du mir schnell bei etwas helfen?",
+          "Wollen wir gemeinsam Mittag essen?",
+          "Was hältst du von der neuen Büroausstattung?"
+        ],
+        "correctAnswer": "Hast du die Präsentation für das Meeting morgen fertig?"
+      },
+      {
+        "question": "Was passiert, wenn der Drucker im Büro wieder nicht funktioniert?",
+        "options": [
+          "Der Drucker wird zur Legende, die nie wieder funktioniert",
+          "Es gibt sofort ein Team von IT-Experten, die es lösen",
+          "Alle ignorieren es und hoffen, dass der nächste es bemerkt",
+          "Es gibt ein großes Meeting, um zu entscheiden, wer es repariert"
+        ],
+        "correctAnswer": "Alle ignorieren es und hoffen, dass der nächste es bemerkt"
+      },
+      {
+        "question": "Was ist das Beste an einem Büro-Frühstück?",
+        "options": [
+          "Das Teilen von Ideen während des Essens",
+          "Die Möglichkeit, Kollegen besser kennenzulernen",
+          "Kaffee und Gebäck ohne Reue",
+          "Das frühzeitige Abräumen der Tische"
+        ],
+        "correctAnswer": "Kaffee und Gebäck ohne Reue"
+      },
+    {
+      "question": "Was ist die geheime Superkraft der Büro-Tastatur?",
+      "options": [
+        "Sie kann nie wirklich sauber sein",
+        "Sie überlebt die meisten Kaffee-Verschüttungen",
+        "Sie weiß immer, wo die „Esc“-Taste ist",
+        "Sie kann so schnell wie du tippen"
+      ],
+      "correctAnswer": "Sie überlebt die meisten Kaffee-Verschüttungen"
+    },
+    {
+      "question": "Was passiert, wenn der Internetanschluss im Büro plötzlich ausfällt?",
+      "options": [
+        "Es gibt sofort einen internen Notfall-Plan",
+        "Alle Kollegen fangen an, sich zu vernetzen",
+        "Es herrscht Panik und alle fragen sich, wie sie den Rest des Tages überstehen sollen",
+        "Es wird Zeit für eine kreative Besprechung"
+      ],
+      "correctAnswer": "Es herrscht Panik und alle fragen sich, wie sie den Rest des Tages überstehen sollen"
+    },
+    {
+      "question": "Warum sieht der Bildschirm nach dem Mittagessen immer so leer aus?",
+      "options": [
+        "Weil der Computer eine Pause macht",
+        "Weil dein Gehirn noch mit dem Mittagessen beschäftigt ist",
+        "Weil du vergisst, das Dokument zu speichern",
+        "Weil alle kreativen Ideen verschwunden sind"
+      ],
+      "correctAnswer": "Weil dein Gehirn noch mit dem Mittagessen beschäftigt ist"
+    },
+    {
+      "question": "Was ist die perfekte Anzahl an Meetings pro Tag?",
+      "options": [
+        "Ein Meeting, das für den gesamten Tag reicht",
+        "So viele, wie du in einen Tag quetschen kannst",
+        "Kein Meeting ist besser als zu viele",
+        "Ein Meeting für jede Kaffepause"
+      ],
+      "correctAnswer": "Kein Meeting ist besser als zu viele"
+    },
+    {
+      "question": "Was ist der erste Gedanke, wenn du eine E-Mail mit dem Betreff 'Dringend' erhältst?",
+      "options": [
+        "Oh nein, was habe ich jetzt wieder getan?",
+        "Ich hoffe, es ist nicht noch mehr Arbeit",
+        "Ich sollte vielleicht erst mal Kaffee holen",
+        "Ich ignoriere sie einfach und hoffe auf das Beste"
+      ],
+      "correctAnswer": "Oh nein, was habe ich jetzt wieder getan?"
+    },
+    {
+      "question": "Warum ist der Pausenraum der beliebteste Ort im Büro?",
+      "options": [
+        "Weil er der einzige Ort ist, an dem du wirklich ungestört bist",
+        "Weil der Kaffee dort immer besser schmeckt",
+        "Weil es der einzige Raum ist, der nicht voll von E-Mails ist",
+        "Weil die Snacks immer verlockend sind"
+      ],
+      "correctAnswer": "Weil er der einzige Ort ist, an dem du wirklich ungestört bist"
+    },
+    {
+      "question": "Was tust du, wenn der Chef einen unerwarteten Besuch macht?",
+      "options": [
+        "Lächeln und hoffen, dass es schnell vorbei geht",
+        "Verstecken, bis er wieder weg ist",
+        "Die besten Ideen präsentieren",
+        "Sofort das neueste Projekt präsentieren"
+      ],
+      "correctAnswer": "Lächeln und hoffen, dass es schnell vorbei geht"
+    },
+    {
+      "question": "Was ist die geheime Zutat für einen erfolgreichen Arbeitstag?",
+      "options": [
+        "Ein gutes Frühstück und viel Kaffee",
+        "Ein klares Ziel vor Augen und das richtige Team",
+        "Ständig den Laptop schließen und pausieren",
+        "Dauerhaft auf E-Mails antworten"
+      ],
+      "correctAnswer": "Ein gutes Frühstück und viel Kaffee"
+    },
+    {
+      "question": "Was ist die gefährlichste Frage, die du im Büro stellen kannst?",
+      "options": [
+        "Kannst du mir bitte helfen?",
+        "Hast du die letzte Version des Dokuments?",
+        "Wann ist das Meeting zu Ende?",
+        "Was machen wir heute Abend?"
+      ],
+      "correctAnswer": "Wann ist das Meeting zu Ende?"
+    },
+    {
+      "question": "Warum ist der Drucker im Büro immer so ein Rätsel?",
+      "options": [
+        "Er ist ein eigenständiges Wesen, das nie ganz verstanden wird",
+        "Er liebt es, Papier zu fressen und dann nicht zu drucken",
+        "Er hat immer die falsche Farbe für den Druckauftrag",
+        "Er wird nur funktionieren, wenn du das richtige Geheimwort sprichst"
+      ],
+      "correctAnswer": "Er ist ein eigenständiges Wesen, das nie ganz verstanden wird"
+    }
+  ]
+  

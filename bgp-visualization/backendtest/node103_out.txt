@@ -1,0 +1,372 @@
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+shutdown 15422 15421
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+shutdown 15438 15437
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [notification sent (2,2)] error[OPEN message error / Bad Peer AS / ASN in OPEN (1) did not match ASN expected (65533)]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+shutdown 15482 15481
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+done
+done
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/24 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+done
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update withdrawn 1.1.0.0/24
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 down - stop, message [shutting down]
+
+shutdown 15500 15499
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/24 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update withdrawn 1.1.0.0/24
+neighbor 172.17.179.104 receive update end
+
+done
+done
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[the TCP connection was closed by the remote end]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/24 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update withdrawn 1.1.0.0/24
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[the TCP connection was closed by the remote end]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+shutdown 15507 15506
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 down - peer reset, message [closing connection] error[Broken TCP connection]
+
+done
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/24 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update withdrawn 1.1.0.0/24
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 down - stop, message [shutting down]
+
+shutdown 15523 15522
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+done
+done
+done
+neighbor 172.17.179.104 down - stop, message [shutting down]
+
+shutdown 15530 15529
+
+neighbor 172.17.179.104 connected
+
+neighbor 172.17.179.104 up
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update announced 1.1.0.0/25 next-hop 172.17.179.104 origin igp local-preference 100
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 1/1 (ipv4 unicast)
+neighbor 172.17.179.104 receive update end
+
+neighbor 172.17.179.104 receive update start
+neighbor 172.17.179.104 receive update route eor 2/1 (ipv6 unicast)
+neighbor 172.17.179.104 receive update end
+
+done
+done
+done
+neighbor 172.17.179.104 down - stop, message [shutting down]
+
+shutdown 15870 15869
