@@ -9,7 +9,7 @@ interface Question {
   correctAnswer: string;
 }
 
-const AttenstionGrabbbing = () => {
+const Millionär = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState(false);
@@ -175,4 +175,4 @@ const AttenstionGrabbbing = () => {
   );
 };
 
-export default AttenstionGrabbbing;
+export default Millionär;
