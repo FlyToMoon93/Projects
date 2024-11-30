@@ -143,7 +143,7 @@ const Contact = () => {
             <Tooltip title="GitHub Profil">
               <a href="https://github.com/FlyToMoon93/Projects" target="_blank" rel="noopener noreferrer" style={chipLinkStyle}>
                 <Chip 
-                  label="GitHub" 
+                  label="GitHub-Projekte ansehen" 
                   icon={<GitHub style={iconStyle} />} 
                   sx={chipStyle} 
                 />

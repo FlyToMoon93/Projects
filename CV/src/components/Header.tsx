@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Box, Button } from '@mui/material';
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
-import AttentionGrabbing from './AttentionGrabbing';
-import Memory from './Memory';
-import ReactionGame from './ReactionGame';
-import NumberSequenceGame from './NumberSequenceGame';
+import AttentionGrabbing from './spiele/AttentionGrabbing';
+import Memory from './spiele/Memory';
+import ReactionGame from './spiele/ReactionGame';
+import NumberSequenceGame from './spiele/NumberSequenceGame';
 
 interface HeaderProps {
   onSectionChange: (section: string) => void;
